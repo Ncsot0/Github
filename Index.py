@@ -12,3 +12,6 @@ for i in lista:
     mutiplicacion *= i
 
 print(f"\nMultiplicación de los elementos de la lista: {mutiplicacion}")
+
+lista.append(11)
+print(f"\nLista después de agregar un elemento: {len(lista)}")
